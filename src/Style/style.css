@@ -1,0 +1,103 @@
+/* Navbar section  */
+/* Navbar section - Header section  */
+
+.input-group {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+  }
+
+  .form-select {
+    --fc-form-select-bg-img: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%2321313c' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: var(--fc-form-select-bg-img),var(--fc-form-select-bg-icon,none);
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+    background-size: 16px 12px;
+    border: 1px solid #dfe2e1;
+    border-radius: 0.5rem;
+    color: #21313c;
+    display: block;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 0.55rem 3rem 0.55rem 1rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+}
+
+select {
+  word-wrap: normal;
+}
+button, select {
+  text-transform: none;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+  .feather-icon {
+    font-family: "feather-icons";
+    display: inline-block;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak-as: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
+/*Navbar section - nav section  */
+
+.all-department:hover{
+ background-color: green;
+}
+
+
+
+
+/* footer section  */
+.footer {
+    background-color: wheat;
+    padding: 4rem 0;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+
+/* Welcome jsx  */
+
+.welcome-freshcart{
+    margin-top: 34px;
+}
