@@ -71,12 +71,18 @@ option {
  background-color: green;
 }
 
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
 
 
 
 /* footer section  */
 .footer {
-    background-color: wheat;
+    background-color: #d8dde398 ;
     padding: 4rem 0;
 }
 
@@ -95,6 +101,15 @@ ul {
   padding-inline-start: 40px;
 }
 
+h6{
+  color: #000;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+li:hover{
+  color: #0aad0a;
+}
 
 /* Welcome jsx  */
 
@@ -102,9 +117,47 @@ ul {
     margin-top: 34px;
 }
 
+.personal-care{
+  background-image: url('../images/personalcare.jpg');
+  margin-top: 60px;
+  margin-left: 80px;
+  border-radius: 3%;
+}
+
+.season-fresh{
+  background-image: url('../images/seasonfresh.jpg');
+  margin-top: 60px;
+  border-radius: 3%;
+  width: 70%;
+  height: 70%;
+}
+
+
+.icecream {
+  margin-top: 60px;
+  background-image: url('../images/icecream.jpg');
+  border-radius: 3%;
+}
+
+.bg-light{
+  background-color: #f0f3f2!;
+}
 
 /* Card jsx  */
 .shop-category{
   margin-top: 90px;
   margin-bottom: 50px;
+}
+
+.col{
+  width: 200px;
+}
+
+.col:hover{
+  border-color: green ;
+}
+
+.coll:hover{
+ border-color: #0aad0a;
+
 }

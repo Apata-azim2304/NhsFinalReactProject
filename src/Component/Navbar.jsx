@@ -1,5 +1,8 @@
 import React from 'react'
 import style from '../Style/style.css'
+import freshcartlogo from '../images/freshcartlogo.svg'
+import { Link } from 'react-router-dom';
+// import nav from '../js/nav'
 
 const Navbar = () => {
   return (
@@ -10,7 +13,7 @@ const Navbar = () => {
             <div className="col-xxl-9 col-lg-8">
                 <div className="d-flex align-items-center">'
                 <a className="navbar-brand d-none d-lg-block" href="../index.html">
-                <img src='https://freshcart.codescandy.com/assets/images/logo/freshcart-logo.svg' alt="eCommerce HTML Template" />
+                <img src= {freshcartlogo} alt="eCommerce HTML Template" />
                 </a>
                 <div className=" w-100 ms-4  d-none d-lg-block ">
                 <form action="#">
@@ -90,7 +93,8 @@ const Navbar = () => {
 
                 <div className="list-inline ms-auto d-lg-block d-none">
                    <div className="list-inline-item me-4">
-                   <a href="../pages/shop-wishlist.html" className="text-reset position-relative">
+                    <Link to="/ShopCart">
+                    <a href="" className="text-reset position-relative">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
                        </path>
@@ -100,6 +104,8 @@ const Navbar = () => {
                     <span className="visually-hidden">unread messages</span>
                     </span>
                  </a>
+                    </Link>
+                   
                    </div>
 
                    <div className="list-inline-item me-4">
@@ -135,12 +141,13 @@ const Navbar = () => {
 
 
    
-<nav className="navbar navbar-expand-lg navbar-dark  py-0 py-lg-3 navbar-default" style={{backgroundColor: "#23A323"}}>
+<nav className="navbar navbar-expand-lg navbar-dark  py-0 py-lg-2 navbar-default" style={{backgroundColor: "#23A323"}}>
       <div className="container-fluid">
       <div className="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel">
           <div className="offcanvas-header pb-1">
-          <a href="./index.html"><img src="../assets/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template"/></a>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">aaaaa</button>
+          <a href="./index.html">
+        <img src="../assets/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template"/></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
 
          <div className="offcanvas-body">
@@ -168,11 +175,11 @@ const Navbar = () => {
                 <div className="d-block d-lg-none mb-4">
               <a className="btn btn-primary w-100 d-flex justify-content-center align-items-center " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <span className="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
-                    <rect x="3" y="3" width="7" height="7"></rect>
+                     <rect x="3" y="3" width="7" height="7"></rect>
                     <rect x="14" y="3" width="7" height="7"></rect>
                     <rect x="14" y="14" width="7" height="7"></rect>
-                    <rect x="3" y="14" width="7" height="7"></rect>
-                  </svg></span> All Departments
+                    <rect x="3" y="14" width="7" height="7"></rect> 
+                  </svg></span> 
               </a>
               <div className="collapse mt-2" id="collapseExample">
                 <div className="card card-body">
@@ -218,7 +225,7 @@ const Navbar = () => {
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Home
                   </a>
-                  <ul className="dropdown-menu">
+                  <ul className="dropdown-menu jjj">
                     <li><a className="dropdown-item" href="../index.html">Home 1</a></li>
                     <li><a className="dropdown-item" href="../pages/index-2.html">Home 2</a></li>
                     <li><a className="dropdown-item" href="../pages/index-3.html">Home 3</a></li>
