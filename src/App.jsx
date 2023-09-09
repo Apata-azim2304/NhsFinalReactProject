@@ -11,7 +11,7 @@ import ShopCart from './pages/ShopCart';
 const App = () => {
   return (
     <div>
-       <Router>
+       {/* <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Welcome />} />
@@ -21,9 +21,9 @@ const App = () => {
           <Route path="/ShopCart" element={<ShopCart />} />
         </Routes>
         <Footer />
-      </Router> 
+      </Router>  */}
 
-      
+      <Navbar/>
 
 
       
