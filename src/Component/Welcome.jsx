@@ -3,7 +3,7 @@ import React from 'react'
 const Welcome = () => {
   return (
     <div>
-      <section className="mt-8 welcome-freshcart">
+      <section className="mt-8 welcome-freshcart"  style={{marginLeft: "80px" }}>
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -35,7 +35,7 @@ const Welcome = () => {
         <div className="container">
         <div className="table-responsive-xl pb-6 pb-xl-0">
                <div className="row flex-nowrap">
-                  <div className="col-12 col-xl-4 col-lg-6 ml-5" style={{marginLeft: "100px" , marginTop: "60px"}}>
+                  <div className="col-12 col-xl-4 col-lg-6 ml-5" style={{marginLeft: "80px" , marginTop: "60px"}}>
                       <div className="p-8 mb-3 rounded" >
                          <div>
                          <h3 className="mb-0 fw-bold">10% cashback on <br/>

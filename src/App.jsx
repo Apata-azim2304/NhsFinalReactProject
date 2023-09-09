@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Component/Navbar'
 import Footer from './Component/Footer'
 import Welcome from './Component/Welcome'
+import Card from './Component/Card'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       
  <Navbar/>
  <Welcome/>
+  <Card/>
 {/* <Footer/> */}
     </div>
   )
