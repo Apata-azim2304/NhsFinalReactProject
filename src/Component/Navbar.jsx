@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="row w-100 align-items-center g-0 gx-lg-3">
             <div className="col-xxl-9 col-lg-8">
                 <div className="d-flex align-items-center">'
-                <a className="navbar-brand d-none d-lg-block" href="../index.html">
+                <a className="navbar-brand d-none d-lg-block" href="/">
                 <img src= {freshcartlogo} alt="eCommerce HTML Template" />
                 </a>
                 <div className=" w-100 ms-4  d-none d-lg-block ">
@@ -93,8 +93,8 @@ const Navbar = () => {
 
                 <div className="list-inline ms-auto d-lg-block d-none">
                    <div className="list-inline-item me-4">
-                    <Link to="/ShopCart">
-                    <a href="" className="text-reset position-relative">
+                    
+                    <Link to="/ShopCart" className="text-reset position-relative">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
                        </path>
@@ -103,7 +103,7 @@ const Navbar = () => {
                     5
                     <span className="visually-hidden">unread messages</span>
                     </span>
-                 </a>
+                 
                     </Link>
                    
                    </div>
