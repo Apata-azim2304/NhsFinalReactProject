@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div>
        <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ShopCart" element={<ShopCart />} />
@@ -16,7 +17,7 @@ const App = () => {
         <Footer />
       </Router>  
 
-      
+      <Navbar/>
 
 
       
